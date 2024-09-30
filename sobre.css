@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Area of the header */
+header {
+  background-color: #cfc4f9;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  border-radius: 10px 10px 0 0;
+  font-family: "Fredoka", sans-serif;
+}
+
+header a {
+  color: #9a7effb0;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(42, 0, 141);
+}
+
+header h1 {
+  font-family: "Spicy Rice", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+/* Area of the main */
+main {
+  padding: 1em;
+}
+
+/* Area of the Article */
+
+article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteiner__sobreNos,
+.conteiner__quality {
+  width: 600px;
+  padding: 1em;
+}
+
+h2 {
+  font-family: "Spicy Rice", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-align: left;
+}
+
+p,
+li {
+  font-family: "Fredoka", sans-serif;
+}
+
+/* Area of the footer */
+
+footer {
+  text-align: center;
+}
+
+.hr__header {
+  border: 1px solid #3300c196;
+  outline-style: dashed;
+}

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Area of the header */
+header {
+  background-color: #cfc4f9;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  border-radius: 10px 10px 0 0;
+}
+
+header a {
+  color: #9a7effb0;
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+}
+
+header a:hover {
+  color: rgb(42, 0, 141);
+  /*background-color: #9a7effb0;*/
+}
+
+header h1 {
+  font-family: "Spicy Rice", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+/* Area of the main */
+main {
+  padding: 1em;
+}
+
+/* Area of the img */
+section {
+  text-align: center;
+}
+
+section img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Area of the Article */
+.welcome {
+  text-align: center;
+  background-color: #8e88d5;
+  padding: 1em;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.877);
+}
+
+article {
+  background-color: #4636f1d0;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  width: 600px;
+  text-align: center;
+}
+
+article ul {
+  list-style: none;
+}
+
+.conteiner__article {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-family: "Spicy Rice", serif;
+  text-align: center;
+}
+
+/* Area of the footer */
+footer {
+  background-color: #4636f1d0;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  border-radius: 0 0 10px 10px;
+}
+
+footer p {
+  text-align: center;
+}
+
+p,
+li {
+  font-family: "Fredoka", sans-serif;
+}
+
+hr {
+  border: 1px solid #3300c196;
+  outline-style: dashed;
+}

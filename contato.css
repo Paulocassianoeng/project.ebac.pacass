@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Area of the header */
+header {
+  background-color: #cfc4f9;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  border-radius: 10px 10px 0 0;
+  font-family: "Fredoka", sans-serif;
+}
+
+header a {
+  color: #9a7effb0;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(42, 0, 141);
+}
+
+header h1 {
+  font-family: "Spicy Rice", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.hr__header {
+  border: 1px solid #3300c196;
+  outline-style: dashed;
+}
+
+/* Area of the main */
+main {
+  padding: 1em;
+  text-align: center;
+}
+
+/* Area of the Sections */
+p,
+li {
+  font-family: "Fredoka", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Spicy Rice", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-top: 1em;
+}
+
+address li {
+  list-style: none;
+}
