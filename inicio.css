@@ -55,7 +55,7 @@ section img {
 }
 
 article {
-  background-color: #4636f1d0;
+  background-color: #4134c8;
   border-radius: 10px 10px 0 0;
   color: white;
   width: 600px;
@@ -97,4 +97,12 @@ li {
 hr {
   border: 1px solid #3300c196;
   outline-style: dashed;
+}
+
+.zoom-article {
+  transition: transform 0.3s ease;
+}
+
+.zoom-article:hover {
+  transform: scale(1.1);
 }
