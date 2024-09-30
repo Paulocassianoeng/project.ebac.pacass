@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Area of the header */
@@ -58,7 +59,8 @@ article {
   background-color: #4134c8;
   border-radius: 10px 10px 0 0;
   color: white;
-  width: 600px;
+  max-width: 730px;
+  height: auto;
   text-align: center;
 }
 
